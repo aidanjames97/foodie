@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		E9E440682C20D67600E14AFB /* foodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E440672C20D67600E14AFB /* foodieApp.swift */; };
 		E9E4406A2C20D67600E14AFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E440692C20D67600E14AFB /* ContentView.swift */; };
-		E9E4406C2C20D67600E14AFB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E4406B2C20D67600E14AFB /* Item.swift */; };
 		E9E4406E2C20D67700E14AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E4406D2C20D67700E14AFB /* Assets.xcassets */; };
 		E9E440712C20D67700E14AFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E440702C20D67700E14AFB /* Preview Assets.xcassets */; };
 		E9E4407B2C20D67700E14AFB /* foodieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E4407A2C20D67700E14AFB /* foodieTests.swift */; };
 		E9E440852C20D67700E14AFB /* foodieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E440842C20D67700E14AFB /* foodieUITests.swift */; };
 		E9E440872C20D67700E14AFB /* foodieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E440862C20D67700E14AFB /* foodieUITestsLaunchTests.swift */; };
+		E9E440982C21E7F100E14AFB /* Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E440972C21E7F100E14AFB /* Landing.swift */; };
+		E9E440A22C23666A00E14AFB /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E440A12C23666A00E14AFB /* MapPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		E9E440642C20D67600E14AFB /* foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E440672C20D67600E14AFB /* foodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodieApp.swift; sourceTree = "<group>"; };
 		E9E440692C20D67600E14AFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E9E4406B2C20D67600E14AFB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E9E4406D2C20D67700E14AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9E440702C20D67700E14AFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9E440762C20D67700E14AFB /* foodieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +46,8 @@
 		E9E440802C20D67700E14AFB /* foodieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E440842C20D67700E14AFB /* foodieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodieUITests.swift; sourceTree = "<group>"; };
 		E9E440862C20D67700E14AFB /* foodieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9E440972C21E7F100E14AFB /* Landing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landing.swift; sourceTree = "<group>"; };
+		E9E440A12C23666A00E14AFB /* MapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			children = (
 				E9E440672C20D67600E14AFB /* foodieApp.swift */,
 				E9E440692C20D67600E14AFB /* ContentView.swift */,
-				E9E4406B2C20D67600E14AFB /* Item.swift */,
+				E9E440A12C23666A00E14AFB /* MapPage.swift */,
+				E9E440972C21E7F100E14AFB /* Landing.swift */,
 				E9E4406D2C20D67700E14AFB /* Assets.xcassets */,
 				E9E4406F2C20D67700E14AFB /* Preview Content */,
 			);
@@ -261,8 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E4406A2C20D67600E14AFB /* ContentView.swift in Sources */,
-				E9E4406C2C20D67600E14AFB /* Item.swift in Sources */,
+				E9E440982C21E7F100E14AFB /* Landing.swift in Sources */,
 				E9E440682C20D67600E14AFB /* foodieApp.swift in Sources */,
+				E9E440A22C23666A00E14AFB /* MapPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

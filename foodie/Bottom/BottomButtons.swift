@@ -10,8 +10,8 @@ import MapKit
 
 struct BottomButtons: View {
     @StateObject private var viewModel = MapPageModel() // model for location
-    var searchRadius: Int // searching radius based off slider
     @Binding var searchResults: [MKMapItem] // results from search
+    var searchingRegion: MKCoordinateRegion
     
     
     // searching for restaurants in area
@@ -19,11 +19,7 @@ struct BottomButtons: View {
         let request = MKLocalSearch.Request()
         request.naturalLanguageQuery = query
         request.resultTypes = .pointOfInterest
-        request.region = MKCoordinateRegion(
-            center: viewModel.region.center,
-            latitudinalMeters: CLLocationDistance(searchRadius),
-            longitudinalMeters: CLLocationDistance(searchRadius)
-        )
+        request.region = searchingRegion
         // search for restaurants
         Task {
             let search = MKLocalSearch(request: request)
@@ -62,6 +58,12 @@ struct BottomButtons: View {
                     search(for: "food")
                 } label : {
                     Label("❓", systemImage: "")
+                }
+                .labelStyle(.titleOnly)
+                Button {
+                    search(for: "bars")
+                } label : {
+                    Label("🍻", systemImage: "")
                 }
                 .labelStyle(.titleOnly)
                 Spacer()

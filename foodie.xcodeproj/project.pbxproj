@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E95B9CDB2C2B044B00632B26 /* Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B9CDA2C2B044B00632B26 /* Landing.swift */; };
 		E9E440682C20D67600E14AFB /* foodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E440672C20D67600E14AFB /* foodieApp.swift */; };
 		E9E4406A2C20D67600E14AFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E440692C20D67600E14AFB /* ContentView.swift */; };
 		E9E4406E2C20D67700E14AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E4406D2C20D67700E14AFB /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E95B9CDA2C2B044B00632B26 /* Landing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landing.swift; sourceTree = "<group>"; };
 		E9E440642C20D67600E14AFB /* foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E440672C20D67600E14AFB /* foodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodieApp.swift; sourceTree = "<group>"; };
 		E9E440692C20D67600E14AFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				E9E440A72C249AFA00E14AFB /* Bottom */,
 				E9E440692C20D67600E14AFB /* ContentView.swift */,
 				E9E440A12C23666A00E14AFB /* MapPage.swift */,
+				E95B9CDA2C2B044B00632B26 /* Landing.swift */,
 				E9E4406D2C20D67700E14AFB /* Assets.xcassets */,
 				E9E440A82C24B4B600E14AFB /* WelcomeScreen.storyboard */,
 				E9E440672C20D67600E14AFB /* foodieApp.swift */,
@@ -281,6 +284,7 @@
 				E9E4406A2C20D67600E14AFB /* ContentView.swift in Sources */,
 				E9E440A42C249A6300E14AFB /* BottomButtons.swift in Sources */,
 				E9E440682C20D67600E14AFB /* foodieApp.swift in Sources */,
+				E95B9CDB2C2B044B00632B26 /* Landing.swift in Sources */,
 				E9E440A22C23666A00E14AFB /* MapPage.swift in Sources */,
 				E9E440A62C249AF000E14AFB /* ItemInfoView.swift in Sources */,
 			);
